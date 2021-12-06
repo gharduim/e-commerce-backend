@@ -1,7 +1,7 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "e-commerce-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1 align=\"center\">Object-Relational Mapping (ORM): E-Commerce Back End 👋</h1>",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+ssh://git@github.com/gharduim/e-commerce-backend.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Gustavo Harduim",
+  "license": "",
   "devDependencies": {
     "nodemon": "^2.0.3"
   },
@@ -24,5 +24,9 @@
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.7"
-  }
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/gharduim/e-commerce-backend#readme"
 }
