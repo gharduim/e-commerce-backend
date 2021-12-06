@@ -39,6 +39,8 @@ View the videos demonstration of the application links:
 
 ![E-commerce backend - Categories](./videos/Categories.gif "E-commerce backend - Categories")
 
+![E-commerce backend - Products](./videos/Products.gif "E-commerce backend - Products")
+
 ![E-commerce backend - TAGS](./videos/Tags.gif "E-commerce backend - TAGS")
 
 ## Table of Contents

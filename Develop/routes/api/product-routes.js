@@ -91,7 +91,7 @@ router.post('/', (req, res) => {
 });
 
 // update product
-router.put('/:id', (req, res) => {
+/*router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {
     where: {
@@ -130,7 +130,28 @@ router.put('/:id', (req, res) => {
       // console.log(err);
       res.status(400).json(err);
     });
+});*/
+
+router.put('/:id', (req, res) => {
+  // update a Product's name by its `id` value
+  Product.update(req.body, {
+    where: {
+      id: req.params.id,
+    },
+  })
+    .then(dbTagData => {
+      if (!dbTagData){
+        res.status(404).json({message:'No product found with this id'});
+        return;
+      }
+      res.json(dbTagData);
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    });
 });
+
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
