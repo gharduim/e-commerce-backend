@@ -30,12 +30,16 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ### Demonstration
 
-View a complete video demonstration of the application: [E-commerce backend Demo](https://drive.google.com/file/d/19N-MUhK5rrgezrrgeRvDcBXDMwEuiggz/view?usp=sharing)
+View the videos demonstration of the application links:
+[E-commerce backend - Start APP](https://drive.google.com/file/d/19N-MUhK5rrgezrrgeRvDcBXDMwEuiggz/view?usp=sharing)
+[E-commerce backend - Categories](https://drive.google.com/file/d/1wL3jmsuRc4dkLfjObfUrUssTkE9n3kTd/view?usp=sharing)
+[E-commerce backend - TAGS](https://drive.google.com/file/d/11tCU2fX876ae57ucQ43X2Ty7s6rRkyJ6/view?usp=sharing)
 
- [E-commerce backend - Categories](https://drive.google.com/file/d/1wL3jmsuRc4dkLfjObfUrUssTkE9n3kTd/view?usp=sharing)
- [E-commerce backend - TAGS](https://drive.google.com/file/d/11tCU2fX876ae57ucQ43X2Ty7s6rRkyJ6/view?usp=sharing)
+![E-commerce backend - Start APP](./videos/Start-app.gif "E-commerce backend - Start APP")
 
-![E-commerce-screen](./videos/.gif "E-commerce backend")
+![E-commerce backend - Categories](./videos/Categories.gif "E-commerce backend - Categories")
+
+![E-commerce backend - TAGS](./videos/Tags.gif "E-commerce backend - TAGS")
 
 ## Table of Contents
 
